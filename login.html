@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body{
+            background-color: rgb(183, 186, 189);
+        }
+        .container{
+            margin: 0 auto; 
+            background-color:white;
+            border:transparent;
+            margin-top: 50px;
+            width:40%;
+            height: 100%;
+            padding:20px;
+
+
+
+        }
+        h1{
+            text-align: center;
+        }
+        label{
+            display: block;
+            margin-bottom: 10px;
+
+        }
+        input{
+            border:none;
+            border-bottom: 2px solid;
+            margin-bottom: 20px;
+            display: block;
+            width:80%;
+            outline:none;
+            background: transparent;
+
+        }
+        input:focus,
+        input:valid
+        {
+            border-color: rgb(17, 69, 52);
+        }
+        button{
+            width:80%;
+            border: solid;
+            border-radius: 5px;
+            background-color: rgb(28, 117, 200);
+           color: white;
+           padding:10px;
+           margin: 10px;
+           font-size: larger;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>login</h1>
+        <div class="login-form">
+            <label for="username">username:</label>
+            <input type="text" name="username" id="username" required>
+
+        </div>
+        <div class="login-form">
+            <label for="password">password:</label>
+            <input type="text" name="password" id="password" required>
+        </div>
+        <button>submit</button>
+    </div>
+    
+</body>
+</html>
